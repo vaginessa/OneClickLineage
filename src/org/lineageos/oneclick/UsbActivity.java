@@ -23,7 +23,10 @@ public class UsbActivity extends Activity {
         OneClickStats.sendEvent(this,
                 OneClickStats.Categories.PAGE_SHOWN, OneClickStats.Actions.PAGE_ADB);
 
+        Analytics.sendEvent(getApplicationContext(), Analytics.TERMS_ACCEPTED);
+        
         if (adbIsEnabled()) {
+            Analytics.sendEvent(getApplicationContext(), Analytics.ADB_ALREADY_ENABLED);
             startActivity(new Intent(getBaseContext(), PtpActivity.class));
             finish();
             return;
