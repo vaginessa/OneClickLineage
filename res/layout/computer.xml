@@ -24,7 +24,7 @@
         android:gravity="center"
         android:paddingTop="50dp"
         android:text="@string/website_link"
-        android:textColor="@color/cyanogen_blue"
+        android:textColor="@color/lineage_blue"
         android:textSize="30sp"
         android:textStyle="bold" />
 
