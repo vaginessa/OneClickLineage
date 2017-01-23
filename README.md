@@ -1,5 +1,5 @@
-# CyanogenMod Installer #
+# LineageOS Installer #
 
-This app will assist you as you install the CyanogenMod experience.
+This app will assist you as you install the Lineage OS experience.
 
-![](web_hi_res_512.png)
+![]logo.png)
