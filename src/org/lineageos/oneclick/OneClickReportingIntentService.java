@@ -1,4 +1,4 @@
-package org.cyanogenmod.oneclick;
+package org.lineageos.oneclick;
 
 import android.app.IntentService;
 import android.content.Intent;
