@@ -23,7 +23,9 @@ public class PtpActivity extends Activity {
         OneClickStats.sendEvent(this, OneClickStats.Categories.PAGE_SHOWN,
             OneClickStats.Actions.PAGE_PTP);
 
+        Analytics.sendEvent(getApplicationContext(), Analytics.ADB_ENABLED);
         if (ptpIsEnabled()) {
+            Analytics.sendEvent(getApplicationContext(), Analytics.PTP_ALREADY_ENABLED);
             startActivity(new Intent(getBaseContext(), HTCFastBootActivity.class));
             finish();
             return;
