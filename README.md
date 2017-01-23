@@ -1,4 +1,4 @@
-# LineageOS Installer #
+# Lineage OS Installer #
 
 This app will assist you as you install the Lineage OS experience.
-![Lineage OS](logo.png?raw=true "LineageOS")
+![Lineage OS](logo.png?raw=true "Lineage OS")
