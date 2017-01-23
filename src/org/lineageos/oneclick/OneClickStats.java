@@ -1,4 +1,4 @@
-package org.cyanogenmod.oneclick;
+package org.lineageos.oneclick;
 
 import android.content.ComponentName;
 import android.content.Context;
